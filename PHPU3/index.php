@@ -17,7 +17,7 @@ UNIVERSIDAD INTERNACIONAL I DE CASTILLA
         </style>
 </head>
     </head>
-    <body>
+    <body class="container bg-dark text-white">
         <div class="container bg-dark text-white"  >
             <div class="row">
                 <div class="col-sm-3">
@@ -25,7 +25,7 @@ UNIVERSIDAD INTERNACIONAL I DE CASTILLA
                   <img src="imagenes/Casa_Targaryen_estandarte.png" class="img-responsive">
                 </div>
                 <div class="col-sm-6" >
-                    <form role="form" id ="myform" action="autenticar.php" method="GET">
+                    <form role="form" id ="myform" action="autenticar.php" method="post">
                         <div class="form-group">
                             <h2>Taller Targaryen</h2>
                                 <label for="LabelInputNonmbre"> Nombre de Usuario</label>
@@ -48,3 +48,5 @@ UNIVERSIDAD INTERNACIONAL I DE CASTILLA
         </div>
     </body>
 </html>
+<?php
+include 'init.php';
