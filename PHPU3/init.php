@@ -6,5 +6,5 @@
 #UNIVERSIDAD INTERNACIONAL I DE CASTILLA
 #
 //crea un array tipo clave-->valor
-$usuarios= array('alvaro'=>'almanza', 'fran'=>'revuelta','ignacio'=>'alvarez','jose'=>'isidoro');
+$usuarios= array('admin'=>'admin','alvaro'=>'almanza', 'fran'=>'revuelta','ignacio'=>'alvarez','jose'=>'isidoro');
 
