@@ -3,6 +3,10 @@
 CODIGO REALIZADO POR ALVARO ALMANZA.
 UNIVERSIDAD INTERNACIONAL I DE CASTILLA
 -->
+<?php
+session_start();
+include 'init.php';
+?>
 <html>
     <head>
         <title>Vehiculos on-line</title>
@@ -48,5 +52,3 @@ UNIVERSIDAD INTERNACIONAL I DE CASTILLA
         </div>
     </body>
 </html>
-<?php
-include 'init.php';
