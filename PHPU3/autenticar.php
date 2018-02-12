@@ -39,7 +39,8 @@ $datos=$_POST["usuario"];
     if($login)
         {
             //echo "se comprueba login";
-            include 'principal.php';
+            //include 'principal.php';
+            include 'menu.php';
         }else
             {
                 //echo "Condicion de usuario y pass incorrecto";
@@ -50,11 +51,11 @@ $datos=$_POST["usuario"];
         global $login; # pasamos a la funcion la variable global para que la funcion la pueda utilizar
         global $usuarios;#pasamos a la funcion la variable global para que la funcion la pueda utilizar
         include'init.php';
-        foreach ($usuarios as $indice=>$valor) #recorremos el array para hacer una serie de tareas
+        foreach ($usuarios as $row) #recorremos el array como una serie de filas para hacer una serie de tareas
             {
                 if(!$login)# si la variable esta a false que haga lo siguiente
                     {
-                        if(strcmp($user, $indice) ==0 && strcmp($pass, $valor)==0) # esto es para comprobar si el usuario y contraseña coinciden con lo que hay en el array
+                        if(strcmp($user, $row['usuario']) ==0 && strcmp($pass, $row['pass'])==0) # esto es para comprobar si el usuario y contraseña coinciden con lo que hay en el array
                             {
                                 $login=true;# si user y pass coinciden ponemos esta variable a true
                                 //echo "comprobando: $indice y pass:$valor<br>"; # comprobacion de que usuario se ha buscado
