@@ -11,3 +11,5 @@ $coches= array
         (
             array('matricula'=>'1234abc','contacto'=>'666666666','marca'=>'ford','color'=>'rojo','observaciones'=>'hola','motivo'=>'el motivo')
         );
+$_SESSION["ListUser"]=$usuarios;
+$_SESSION["ListCar"]=$coches;
