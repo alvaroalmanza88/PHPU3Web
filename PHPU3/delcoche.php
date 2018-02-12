@@ -36,6 +36,7 @@
                     <!--<li><a href="#">Loguéate</a></li>-->
                     <li><a href="regVehicle.php">Alta vehículo</a></li>
                     <li class="active"><a href="delcoche.php">Baja vehículo</a></li>
+                    <li><a href="deluser.php">Baja usuario</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -57,12 +58,3 @@
 
 </body>
 </html>
-
-<?php
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
