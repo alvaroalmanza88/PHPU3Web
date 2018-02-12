@@ -36,7 +36,7 @@
                         <li><a href="regUser.php" >Alta usuario</a></li>
                         <!--<li><a href="#" >L</a></li>-->
                         <li class="active"><a>Alta vehículo</a></li>
-                        <li><a href="#">Baja vehículo</a></li>
+                        <li><a href="delcoche.php">Baja vehículo</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
