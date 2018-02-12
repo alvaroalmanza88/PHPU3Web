@@ -35,7 +35,7 @@
                     <li class="active"><a>Alta usuario</a></li>
                     <!--<li><a href="#">Loguéate</a></li>-->
                     <li><a href="regVehicle.php">Alta vehículo</a></li>
-                    <li><a href="#">Baja vehículo</a></li>
+                    <li><a href="delcoche.php">Baja vehículo</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
