@@ -12,7 +12,7 @@ UNIVERSIDAD INTERNACIONAL I DE CASTILLA
     //echo "Tamaño array antes: ". count($_SESSION["ListUser"]);
     $cars=array_pop($_SESSION["ListCar"]);
     echo "Datos de coche dados de alta: <br>";    
-    print_r($cars);
+    //print_r($cars);
  ?>
 <html>
 <head>
@@ -63,3 +63,5 @@ UNIVERSIDAD INTERNACIONAL I DE CASTILLA
 
 </body>
 </html>
+<?php
+print_r($cars);
