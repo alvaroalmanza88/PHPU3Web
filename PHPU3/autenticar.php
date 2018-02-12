@@ -40,7 +40,8 @@ $datos=$_POST["usuario"];
         {
             //echo "se comprueba login";
             //include 'principal.php';
-            include 'menu.php';
+            //include 'menu.php';
+            include 'indexNew.php';
         }else
             {
                 //echo "Condicion de usuario y pass incorrecto";
