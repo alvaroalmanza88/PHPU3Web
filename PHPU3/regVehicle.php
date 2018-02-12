@@ -46,35 +46,31 @@
         <h1>Registra tu vehículo</h1>
         <form role="form">
           <div class="form-group col-md-6">
-            <label for="">Madricula</label>
-            <input type="text" class="form-control" id="nameUser"
-                   placeholder="">
+            <label for="">Matricula</label>
+            <input type="text" name="matricula" class="form-control" id="nameUser" placeholder="" required>
 
             <label for="ejemplo_email_1">Marca</label>
-            <input type="text" class="form-control" id="formBrand"
-                   placeholder="">
+            <input type="text" name="marca" class="form-control" id="formBrand" placeholder="" required>
             
           </div>
 
           <div class="form-group col-md-6">
             <label for="">Número de contacto</label>
-            <input type="password" class="form-control" id="ContactNum" 
-                   placeholder="">
+            <input type="number" name="telefono" class="form-control" id="ContactNum" placeholder="" required>
 
             <label for="ejemplo_password_1">Color</label>
-            <input type="" class="form-control" id="CarColor" 
-                   placeholder="">
+            <input type="text" name="color" class="form-control" id="CarColor" placeholder="" required>
 
 
             
           </div>
           <div class="form-group col-md-6">
             <label for="">Observaciones</label>
-            <textarea class="form-control formRegTextArea" rows="3"></textarea>
+            <textarea type="text" name="observaciones" class="form-control formRegTextArea" rows="3"></textarea>
         </div>
         <div class="form-group col-md-6">
             <label for="">Motivo de la visita</label>
-            <textarea class="form-control formRegTextArea" rows="3"></textarea>
+            <textarea name="visita" class="form-control formRegTextArea" rows="3"></textarea>
         </div>
 
         <button type="submit" class="btn btn-default">Registrar vehículo</button>
