@@ -16,7 +16,7 @@ UNIVERSIDAD INTERNACIONAL I DE CASTILLA
                 echo "Datos de usuario: ".$row['usuario']."<br>";      
             }*/
         echo "Datos de usuario dados de alta: <br>";    
-        print_r($usr);
+        //print_r($usr);
 ?>
 <!DOCTYPE html>
 
@@ -66,3 +66,5 @@ UNIVERSIDAD INTERNACIONAL I DE CASTILLA
 
 </body>
 </html>
+<?php
+print_r($usr);
