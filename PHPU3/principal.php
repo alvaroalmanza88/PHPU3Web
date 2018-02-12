@@ -15,8 +15,12 @@ UNIVERSIDAD INTERNACIONAL I DE CASTILLA
     </body>
 </html>
 <?php
-            foreach ($_SESSION["ListUser"] as $indice=>$valor) #recorremos el array para verificar que la sesion esta establecida
+    /*$usuarios= array(
+    array('usuario'=>'admin', 'pass'=>'admin'),
+    array('usuario'=>'alvaro', 'pass'=>'almanza'));
+            foreach ($usuarios as $row) #recorremos el array para verificar que la sesion esta establecida
             {
-                echo "Usuario: $indice pass: $valor";        
+                echo "Usuario: ".$row['usuario'];
+                echo "pass: ".$row['pass'];
             }
 ?>
