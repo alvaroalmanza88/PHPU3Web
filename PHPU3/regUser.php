@@ -43,7 +43,7 @@
 </header>
 <section class="formularioRegistro">
     <h2>Regístrate</h2>
-            <form role="form" action="regusuario.php" method="get">
+            <form role="form" action="regusuario.php" method="POST">
                     <div class="form-group col-md-6">
                     <input type="text" class="form-control" name="reguser[nombre]" placeholder ="Nombre" required>
                     <input type="text" class="form-control" name="reguser[direccion]" placeholder ="Dirección" required>
