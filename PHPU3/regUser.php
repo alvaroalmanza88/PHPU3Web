@@ -32,10 +32,10 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li><a href="indexNew.php">Inicio <span class="sr-only">(current)</span></a></li>
-                    <li class="active"><a>Regístrate</a></li>
-                    <li><a href="#">Loguéate</a></li>
-                    <li><a href="regVehicle.php">Registra tu vehículo</a></li>
-                    <li><a href="#">Da de baja tu vehículo</a></li>
+                    <li class="active"><a>Alta usuario</a></li>
+                    <!--<li><a href="#">Loguéate</a></li>-->
+                    <li><a href="regVehicle.php">Alta vehículo</a></li>
+                    <li><a href="#">Baja vehículo</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
