@@ -24,7 +24,7 @@ foreach ($_SESSION["ListCar"] as $row)
                         }
                         $indice++;
             }
- print_r($coches);
+ //print_r($coches);
  ?>
  <html>
 <head>
@@ -73,3 +73,5 @@ foreach ($_SESSION["ListCar"] as $row)
 
 </body>
 </html>
+<?php
+print_r($coches);
