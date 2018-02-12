@@ -24,7 +24,7 @@ foreach ($_SESSION["ListUser"] as $row)
                         }
                         $indice++;
             }
- print_r($usuarios);
+ //print_r($usuarios);
  ?>
  <html>
 <head>
@@ -73,3 +73,5 @@ foreach ($_SESSION["ListUser"] as $row)
 
 </body>
 </html>
+<?php
+print_r($usuarios);
