@@ -1,10 +1,10 @@
+<!DOCTYPE html>
+<!--
+CODIGO REALIZADO POR ALVARO ALMANZA.
+UNIVERSIDAD INTERNACIONAL I DE CASTILLA
+-->
 <?php
 
-//phpinfo();
-#
-#CODIGO REALIZADO POR ALVARO ALMANZA.
-#UNIVERSIDAD INTERNACIONAL I DE CASTILLA
-#
 //crea un array tipo clave-->valor
 $usuarios= array(
     array('usuario'=>'admin', 'pass'=>'admin', 'dir'=>'calle madrid', 'telefono'=>'111111111', 'correo'=>'hola@hola'),
