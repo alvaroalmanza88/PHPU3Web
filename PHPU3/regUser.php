@@ -12,65 +12,6 @@
 
     <script type="text/javascript" src="bootstrap/js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-    <style>
-        *{
-            box-sizing: border-box;
-        }
-
-        body{
-            margin :0;
-            font-family: sans-serif;
-            background: #204862;
-        }
-
-        h1{
-            color :white;
-            text-align: center;
-        }
-
-        .form-register{
-            width: 95%;
-            max-width: 500px;
-            margin: auto;
-            background: white;
-            border-radius: 7px;
-        }
-
-        .form__titulo{
-            background: deepskyblue;
-            color : #fff;
-            padding: 20px;
-            text-align: center;
-            font-weight: 100;
-            font-size:30px;
-            border-top-left-radius: 7px;
-            border-top-right-radius: 7px;
-            border-bottom: 5px solid crimson;
-        }
-        .contenedor-inputs{
-            padding: 10px 30px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
-        input{
-            margin-bottom: 15px;
-            padding: 15px;
-            font-size: 16px;
-            border-radius: 3px;
-            border: 1px solid darkgrey;
-        }
-        .input-30{
-            width: 48%;
-        }
-        .input-55{
-            width: 100%;
-        }
-
-        .btn-enviar{
-            background: crimson;
-        }
-    </style>
 </head>
 
 <body>
@@ -101,31 +42,22 @@
     </nav>
 </header>
 <section class="formularioRegistro">
-    <h1>Regístrate</h1>
-    <form role="form">
-        <div class="form-group col-md-6">
-            <h1>Formulario de registro</h1>
-            <form action="formularios.php" class="form-register" method="get">
-                <h2 class="form__titulo">Crear una cuenta de Usuario</h2>
-                <div class="contenedor-inputs">
-                    <input type="text" name="nombre" placeholder ="Nombre" class="input-30" required>
-                    <input type="text" name="direccion" placeholder ="Dirección" class="input-30" required>
-                    <input type="text" name="telefono" placeholder ="Teléfono" class="input-55" required>
-                    <input type="text" name="correo" id="correo" placeholder ="Correo" class="input-55" required>
-                    <input type="password" name="contraseña" placeholder ="Contraseña" class="input-30" required>
-                    <input type="submit" value ="Registrar" name="registro" class="btn-enviar"><br/>
-                    <p>Login</p><br/>
-                </div>
+    <h2>Regístrate</h2>
+            <form role="form" action="regusuario.php" method="get">
+                    <div class="form-group col-md-6">
+                    <input type="text" class="form-control" name="reguser[nombre]" placeholder ="Nombre" required>
+                    <input type="text" class="form-control" name="reguser[direccion]" placeholder ="Dirección" required>
+                    <input type="text" class="form-control" name="reguser[telefono]" placeholder ="Teléfono" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                    <input type="text" class="form-control" name="reguser[correo]" id="correo" placeholder ="Correo" required>
+                    <input type="password" class="form-control" name="reguser[contrasenia]" placeholder ="Contraseña" required>
+                    </div>
+                    <input type="submit" value="Registrar" class="btn btn-default">
             </form>
-
-
-        </div>
      
         <div class="form-group col-md-2">
-            <button type="submit" class="btn btn-default buttonRegUser">Regístrate</button>
         </div>
-        </div>
-
     </form>
 </section>
 
