@@ -3,10 +3,6 @@
 CODIGO REALIZADO POR ALVARO ALMANZA.
 UNIVERSIDAD INTERNACIONAL I DE CASTILLA
 -->
-<?php
-session_start();
-include 'init.php';
-?>
 <html>
     <head>
         <title>Vehiculos on-line</title>
