@@ -3,6 +3,10 @@
 CODIGO REALIZADO POR ALVARO ALMANZA.
 UNIVERSIDAD INTERNACIONAL I DE CASTILLA
 -->
+<?php
+session_start();
+include 'init.php';
+?>
 <html lang="en">
 <head>
   <title>Vehiculos on-line</title>
@@ -35,7 +39,7 @@ $datos=$_POST["usuario"];
     if($login)
         {
             //echo "se comprueba login";
-            include 'principal.html';
+            include 'principal.php';
         }else
             {
                 //echo "Condicion de usuario y pass incorrecto";
@@ -53,7 +57,7 @@ $datos=$_POST["usuario"];
                         if(strcmp($user, $indice) ==0 && strcmp($pass, $valor)==0) # esto es para comprobar si el usuario y contraseña coinciden con lo que hay en el array
                             {
                                 $login=true;# si user y pass coinciden ponemos esta variable a true
-                                echo "comprobando: $indice y pass:$valor<br>"; # comprobacion de que usuario se ha buscado
+                                //echo "comprobando: $indice y pass:$valor<br>"; # comprobacion de que usuario se ha buscado
                             }
                     }else # si el login ya esta a true que rompa el for
                         {
